@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test" parllel = "">
+    <classes>
+      <class name="selenium_Practice.WindowHandling_Screenshots"/>
+      <class name="selenium_Practice.Selenium_Practice"/>
+      <class name="selenium_Practice.TestNGPractice"/>
+      <class name="selenium_Practice.VineethWebPage"/>
+      <class name="selenium_Practice.IframeDemo"/>
+      <class name="selenium_Practice.Flipkart"/>
+      <class name="selenium_Practice.UserChargesTable"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
